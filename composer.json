@@ -1,5 +1,5 @@
 {
-	"name": "kehikko/route/admin",
+	"name": "kehikko/route-admin",
 	"type": "kehikko/route",
 	"description": "Admin UI for kehikko framework",
 	"license": "MIT",

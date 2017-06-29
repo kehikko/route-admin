@@ -65,7 +65,7 @@
                   {{ tr('label/settings') }}
                 </a>
               </li>
-              {% if authorize('role:admin') %}
+              {% if authorize('role:fake') %}
               <li>
                 <a href="{{ route('account:fake', { username: user.get('username') }) }}">
                   <span class="fa fa-user-secret"></span>
